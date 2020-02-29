@@ -22,11 +22,7 @@ class CodesTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        
-        // UI setting
         ivSenderImage.layer.cornerRadius = ivSenderImage.frame.width/2
-        
     }
     
     
