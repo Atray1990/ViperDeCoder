@@ -42,7 +42,6 @@ class CodesViewController: UIViewController {
     
     func showUpdatedData(codeData : [CodeData]) {
         self.codeDataSource.codeData = codeData
-       
          DispatchQueue.main.async {
             self.codeTableView.reloadData()
         }
